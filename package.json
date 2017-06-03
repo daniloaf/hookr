@@ -1,0 +1,28 @@
+{
+  "name": "hookr",
+  "version": "1.0.0",
+  "description": "Rizzo&Jordo's Wonderful Hookah Lounge",
+  "main": "index.js",
+  "repository": "git@github.com:daniloaf/hookr.git",
+  "authors": [
+    "Danilo Freitas <dsurviver@gmail.com>",
+    "Arthur Rizzo <>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/babel-watch/babel-watch.js --presets node6 index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "mongoose": "^4.10.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-node6": "^11.0.0",
+    "babel-watch": "^2.0.6",
+    "chai": "^4.0.1",
+    "mocha": "^3.4.2"
+  }
+}
